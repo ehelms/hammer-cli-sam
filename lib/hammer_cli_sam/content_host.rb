@@ -22,7 +22,7 @@ module HammerCLISAM
     class UpdateCommand < HammerCLIKatello::ContentHostCommand::UpdateCommand
       include HammerCLISAM::ExcludeOptions
 
-      exclude_options(:environment, :content_view)
+      exclude_options(:environment, :content_view, :location)
     end
 
   end
