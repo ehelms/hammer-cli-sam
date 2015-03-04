@@ -8,7 +8,7 @@
 %global geminstdir %{gem_dir}/gems/%{gemname}-%{version}
 Summary: SAM commands for Hammer
 Name: rubygem-%{gemname}
-Version: 0.0.1
+Version: 1.0.0
 Release: 1%{?dist}
 Group: Development/Languages
 License: GPLv3
@@ -66,5 +66,8 @@ cp -pa .%{gem_dir}/* \
 %doc %{gem_dir}/doc/%{gemname}-%{version}
 
 %changelog
+* Wed Mar 04 2015 Adam Price <komidore64@gmail.com> 1.0.0-1
+- new package built with tito
+
 * Wed Dec 03 2014 Mike McCune - 0.0.1-1
 - Initial package
